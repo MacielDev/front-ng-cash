@@ -19,6 +19,13 @@ export const Button = styled.button`
     justify-content: center;
   }
 
+  @media screen and (max-width: 460px) {
+    width: 3.75rem;
+    height: 3.75rem;
+    padding: 0.2rem;
+    font-size: 0.6rem;
+  }
+
   &:hover {
     background-color: #2c2c2c;
   }
