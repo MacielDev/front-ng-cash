@@ -1,12 +1,8 @@
-import { type } from 'os';
-import { InputType } from 'zlib';
 
-interface IFilterDataInput{
-  inputDate: string,
-}
+import { InputData } from './styles';
 
-export const FilterDataInput = ({inputDate}:IFilterDataInput) => {
+export const FilterDataInput = () => {
   return (
-    <input type="search" placeholder='put a date here' value={inputDate}/>
+    <InputData  type="date" placeholder='put a date here'/>
   )
 }

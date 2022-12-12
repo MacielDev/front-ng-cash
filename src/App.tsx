@@ -1,10 +1,14 @@
 import { GlobalStyle } from "./styles/global";
+import { BrowserRouter } from "react-router-dom";
+import { MainRoutes } from "./routes";
 
 function App() {
   return (
     <div>
       <GlobalStyle/>
-      <h1>Front end aqui!!!</h1>
+      <BrowserRouter>
+        <MainRoutes/>
+      </BrowserRouter>
     </div>
   );
 }

@@ -11,6 +11,10 @@
 		"noFallthroughCasesInSwitch": true,
 		"module": "esnext",
 		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@components/*": ["src/shared/components"]
+		},
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"noEmit": true,

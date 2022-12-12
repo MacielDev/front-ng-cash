@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const ValueOutput = styled.div`
   box-sizing: border-box;
   border: 1px solid #cccccc;
-  box-shadow: 0px 4px 4px rgba(29, 29, 29, 0.25);
+  box-shadow: 0px 2px 2px rgba(29, 29, 29, 0.25);
   border-radius: 0.25rem;
   font-weight: 300;
 
