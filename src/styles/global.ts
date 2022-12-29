@@ -11,6 +11,7 @@ body{
     -webkit-font-smoothing: antialiased;
     font-family:'Inter', sans-serif;;
     height: 100vh;
+    
 }
 button{
     cursor:pointer;
@@ -19,6 +20,5 @@ button{
     opacity:0.6;
     cursor:not-allowed;	
 }
-  
-`
 
+`

@@ -24,7 +24,7 @@ export const ValueOutput = styled.div`
   }
 
   @media screen and (min-width: 720px) {
-    width: 24rem;
+    width: 25rem;
     height: 4rem;
     font-size: 2.5rem;
     padding: 0.4rem 0 0.4rem 0.5rem;

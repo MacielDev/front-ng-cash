@@ -6,9 +6,16 @@ import { Wallet } from "./pages/wallet/Wallet";
 export function MainRoutes() {
   return (
     <Routes>
+
+      {/* Public Route */}
       <Route path='/' element={<Login />} />
+
+
+      {/* Private Routes */}
+    
       <Route path='/wallet' element={<Wallet />} />
-      <Route path='/transactions' element={<Transaction/>}/>
+      <Route path='/transactions' element={<Transaction />} />
+      
     </Routes>
   )
 }
