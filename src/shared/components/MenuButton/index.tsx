@@ -1,11 +1,11 @@
 import { Button } from "./styles";
-interface IMenuButton{
-  buttonIcon: JSX.Element;
-}
-export const MenuButton = ({ buttonIcon}:IMenuButton) => {
+import { List } from 'phosphor-react'
+
+
+export const MenuButton = () => {
   return (
     <Button>
-      {buttonIcon}
+      <List width={70} height={70} />
     </Button>
   );
 }

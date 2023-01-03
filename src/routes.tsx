@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
-import { Login } from "./pages/login/Login";
-import { Transaction } from "./pages/transaction/Transaction";
-import { Wallet } from "./pages/wallet/Wallet";
+import { Login } from "./pages/login";
+import { Transaction } from "./pages/transaction";
+import { Wallet } from "./pages/wallet";
 
 export function MainRoutes() {
   return (
