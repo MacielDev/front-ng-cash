@@ -1,15 +1,16 @@
 import { GlobalStyle } from "./styles/global";
 import { BrowserRouter } from "react-router-dom";
 import { MainRoutes } from "./routes";
+import { AuthContextProvider } from "./shared/contexts/AuthContext/AuthContextProvider";
 
 function App() {
   return (
-    <div>
-      <GlobalStyle/>
+    <AuthContextProvider>
       <BrowserRouter>
         <MainRoutes/>
+        <GlobalStyle/>
       </BrowserRouter>
-    </div>
+    </AuthContextProvider>
   );
 }
 export default App;

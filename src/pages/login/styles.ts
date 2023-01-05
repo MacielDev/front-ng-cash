@@ -21,5 +21,14 @@ export const Container = styled.main`
     input {
       margin-bottom: 1.2rem;
     }
+    a {
+      text-decoration: none;
+      font-size: 1rem;
+      margin-top: 0.5rem;
+      color: #1d1d1d;
+      &:hover {
+        color: #7e7e7e;
+      }
+    }
   }
 `

@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import { CreateUser } from "./pages/createUser";
 import { Login } from "./pages/login";
 import { Transaction } from "./pages/transaction";
 import { Wallet } from "./pages/wallet";
@@ -9,7 +10,7 @@ export function MainRoutes() {
 
       {/* Public Route */}
       <Route path='/' element={<Login />} />
-
+      <Route path='/createUser' element={<CreateUser />} />
 
       {/* Private Routes */}
     

@@ -6,5 +6,5 @@ export default {
   component: CustomButton
 } as ComponentMeta<typeof CustomButton>
 
-export const LoginButton: ComponentStory<typeof CustomButton> = () => <CustomButton textButton="log in" />
-export const createAccountButton : ComponentStory<typeof CustomButton> = () => <CustomButton textButton="create account" />
+export const LoginButton: ComponentStory<typeof CustomButton> = () => <CustomButton textButton="log in" type="submit" onClick={async (event) => event.preventDefault()} />
+export const createAccountButton : ComponentStory<typeof CustomButton> = () => <CustomButton textButton="create account" type="submit" onClick={async (event) => event.preventDefault()} />
